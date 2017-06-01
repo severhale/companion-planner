@@ -1,0 +1,10 @@
+#input-prompt {
+  display: inline-block;
+  max-width: 33%;
+  vertical-align: top;
+}
+
+#output-crop {
+  display: inline-block;
+  max-width: 66%;
+}
