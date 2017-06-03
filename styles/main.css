@@ -1,10 +1,19 @@
-#input-prompt {
-  display: inline-block;
-  max-width: 33%;
-  vertical-align: top;
+#full-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-#output-crop {
-  display: inline-block;
-  max-width: 66%;
+#input-container {
+  background: #8d229a;
+}
+
+#good-container {
+  background: #af9cb1;
+  flex-grow: 2;
+}
+
+#bad-container {
+  background: #f3d2aa;
+  flex-grow: 2;
 }
